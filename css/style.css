@@ -40,6 +40,25 @@ body {
     transform: rotate(360deg);
 }
 
+.footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+
+.footer a:hover {
+    font-size: larger;
+    color: gold;
+}
+
 .pipe {
     position: absolute;
     bottom: 0;
